@@ -1,0 +1,28 @@
+nav {
+   color:#FFFFFF;
+  
+   ul{
+     list-style-type: none;
+   }
+
+   li{
+    text-align: center;
+    display: inline;
+    padding: 1.5rem 2.5rem;
+  
+   }
+
+   a{
+    color: inherit;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    font-weight: 700;
+   }
+}
+
+
+.active-nav{
+   background-color:#271AC1 ;
+   color: inherit;
+   border-radius: 2rem;
+}

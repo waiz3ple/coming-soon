@@ -1,0 +1,27 @@
+svg{
+   width: 8rem;
+  .logo-image {
+     fill: #FFF;
+    } 
+
+    .logo-text {
+      font-size: 6.8rem;
+      fill: #fff;
+      font-family: sans-serif;
+      font-weight: bold;
+    } 
+}
+
+header{
+   border: 1px solid white;
+   display: grid;
+   grid-template-columns: 1fr 4fr;
+   padding: 4rem 4%;
+
+
+   nav{
+   justify-self: end;
+   align-self: center;
+  }
+}
+
