@@ -42,7 +42,9 @@ export default class Main extends Component {
         </section>
 
         <section className="footer-wrapper">
-           <Footer/>
+          <div>
+             <Footer/>
+          </div>
         </section>
       </>
     );
