@@ -23,11 +23,11 @@ export default class Main extends Component {
         </ul>
          <form>
            <fieldset>
-             <input type="text"/>
-             <input type="text"/>
+             <input type="text" placeholder="First Name.."/>
+             <input type="text" placeholder="Last Name.."/>
            </fieldset>
            <fieldset>
-             <input type="text"/>
+             <input type="text" placeholder="Enter your email address..."/>
              <button>JOIN OUR WAITING LIST</button>
            </fieldset>
          </form>

@@ -33,9 +33,57 @@ main{
     }
 
     form{
-
+       display: grid;
+       justify-content: center;
+       
         fieldset{
+            margin: 1.5rem;
+            border: none;
+
+           &:first-child{
+               input[type="text"]{
+                   background: transparent;
+                   border: none;
+                   border-bottom: 2px solid #1E232C;
+                   margin-right: .5rem;
+                   font-family:Poppins-Regular;
+                   padding: .5rem;
+                   color:#707070;;
+               }
+
+           }
+
+           input[type="text"]:focus{
+             outline: none;
+           }
+
+           &:last-child{
+            position: relative;
+            display: grid;
+
+             input[type="text"], button{
+                border-radius: 40px;
+                position: absolute;
+                padding:2rem  
+             }
+             button{
+                font-family: Poppins-Medium;
+                background-color: #271AC1;
+                color: inherit;
+                width: 65%;
+                font-size: 1.3rem;
+                justify-self: end;
+                
+             }
+            input[type="text"]{
+                font-family:Poppins-Light;
+                padding-right: 2rem;
+                width: 100%; 
+            }
+           }  
         }
+
+      
     }
 }
 
