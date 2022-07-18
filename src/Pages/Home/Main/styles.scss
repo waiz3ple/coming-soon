@@ -60,25 +60,29 @@ main{
            &:last-child{
             position: relative;
             display: grid;
+            grid-template-columns: 3fr 1fr;
 
              input[type="text"], button{
                 border-radius: 40px;
                 position: absolute;
-                padding:2rem  
+                border:none;
+                
              }
              button{
                 font-family: Poppins-Medium;
                 background-color: #271AC1;
                 color: inherit;
-                width: 65%;
+                width: 45%;
                 font-size: 1.3rem;
                 justify-self: end;
-                
+                padding: 10px 15px;
+                box-shadow: 1px 1px 12px #000;
              }
             input[type="text"]{
                 font-family:Poppins-Light;
-                padding-right: 2rem;
-                width: 100%; 
+                padding: 1rem  1.5rem;
+                width: 70%;
+                font-size: 1.2rem; 
             }
            }  
         }
