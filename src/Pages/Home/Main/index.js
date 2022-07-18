@@ -34,8 +34,10 @@ export default class Main extends Component {
              </fieldset>
            </form>
         </main>
-        <section className="circle-container">
-          <Circle detail={'some info'}/>
+         <section className="circle-container">
+          <Circle className="circle1" info={{size:14, colorStart:"#7F1E7B", colorStop:"#19073B"}}/>
+          <Circle className="circle2" info={{size:18.4, colorStart:"#7F4129", colorStop:"#1C0C28"}}/>
+          <Circle className="circle3" info={{size:10.4, colorStart:"#213F72", colorStop:"#19073B"}}/>
         </section>
       </>
     );

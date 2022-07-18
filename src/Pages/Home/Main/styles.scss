@@ -91,3 +91,31 @@ main{
     }
 }
 
+
+.circle-container{
+        display: grid;
+        grid-template-columns: 2fr 6fr 2fr; 
+        grid-column-gap:20px;
+        width: 100%;
+        height: 120%;
+        position: absolute;
+        top: 1px;
+        z-index: -1;
+        padding-top:18rem;
+
+        .circle:nth-child(1){
+           align-self:start; 
+           justify-self: center;
+        }
+
+        .circle:nth-child(2){
+           align-self:end; 
+           justify-self: start;
+        }
+
+        .circle:nth-child(3){
+           align-self:center; 
+           justify-self: start;
+        }
+    }
+
