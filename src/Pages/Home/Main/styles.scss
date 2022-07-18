@@ -1,0 +1,41 @@
+main{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    padding: 3rem 0;
+    h1{
+        font-size: 3.5vw;
+        line-height: 120%;
+        text-align: center;
+        font-family: Poppins;
+
+    }
+
+    p{ 
+        font-size: 1vw;
+        text-align: center;
+        letter-spacing: 1.5px;
+        font-family: Poppins-ExtraLight;
+    }
+
+    h1 span, p span{
+        display: block;
+        text-align: center;
+    }
+
+    h1 span{margin-bottom: 1.5rem;}
+    p span{ margin-bottom: .8rem; }
+   
+    ul{
+        list-style-type: none;
+        padding: 2rem;
+        justify-self: center;
+    }
+
+    form{
+
+        fieldset{
+        }
+    }
+}
+

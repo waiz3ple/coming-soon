@@ -1,0 +1,23 @@
+.card{
+    display: inline-block;
+    background-color: #FFFFFF;
+    color: #000000;
+    margin: 0 .5rem;
+    border-radius: 8px;
+    width: 10.6rem;
+    height: 11.6rem;
+    position:relative;
+
+    .time{ 
+     font-size: 5rem;
+     font-weight: bolder;
+     padding:1rem 0 0 0;
+     font-family: Poppins-SemiBold;
+    }
+
+    .label{
+       font-family: Poppins-Regular;
+       font-size: 1.2rem;
+       margin-top:-.5rem ;
+    }
+ }
